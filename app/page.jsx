@@ -900,6 +900,7 @@ function AlertSection() {
 
 
 
+
 // ─── FAQ ──────────────────────────────────────────────────────────────────────
 function FAQ() {
   const [open, setOpen] = useState(null);
@@ -1094,12 +1095,9 @@ export default function Home() {
       <ConversionSection />
       <InternationalSection />
       <AlertSection />
-      <GestionSection />
+      
       <FAQ />
       <Footer />
     </div>
   );
 }
-
-
-
